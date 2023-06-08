@@ -21,3 +21,18 @@ Expected Output: 1
     }
     return 0;
 } -->
+
+Test: "It recognizes a single vowel in a word with multiple characters."
+Code: vowelCounter("cat");
+Expected Output: 1
+
+<!-- function vowelCounter (vowel, word) {
+    const wordArray = word.toLowerCase().split("");
+    console.log(wordArray)
+    for (let i = 0; i < wordArray.length; i ++);
+    console.log(i);
+    if (vowel === wordArray[i]){
+        return i;
+    } console.log(vowel)
+    console.log(wordArray[i])
+    return -1; -->
