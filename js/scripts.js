@@ -1,10 +1,11 @@
-function vowelCounter (vowel, word) {
+function vowelCounter (vowel, vowel, word) {
     const wordArray = word.toLowerCase().split("");
     console.log(wordArray)
-    for (let i = 0; i < wordArray.length; i ++);
-    console.log(i);
-    if (vowel === wordArray[i]){
-        return i;
+    for (let i = 0; i < wordArray.length; i ++) {
+        console.log(i);
+        if (vowel === wordArray[i]){
+            return i;
+        }
     } console.log(vowel)
     console.log(wordArray[i])
     return -1;
@@ -16,12 +17,12 @@ function vowelCounter (vowel, word) {
 //     }
 //     return 0;
 
-/* function vowelCounter (word) {
-    const wordArray = word.toLowerCase().split("");
-    console.log(wordArray)
-    for (let i = 0; i < wordArray.length; i ++);
-    if (word === wordArray[i] && wordArray === "a" || wordArray === "e" || wordArray === "i" || wordArray === "o" || wordArray === "u"){
-        return i;
-    }
-    return 0;
-}//
+// function vowelCounter (word) {
+//     const wordArray = word.toLowerCase().split("");
+//     console.log(wordArray)
+//     for (let i = 0; i < wordArray.length; i ++);
+//     if (word === wordArray[i] && wordArray === "a" || wordArray === "e" || wordArray === "i" || wordArray === "o" || wordArray === "u"){
+//         return i;
+//     }
+//     return 0;
+// }
